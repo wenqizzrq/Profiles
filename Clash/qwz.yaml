@@ -111,7 +111,7 @@ Proxy:
     cipher: auto
     udp: true
     network: ws
-    ws-path: /static
+    ws-path: /
     tls: true
     ws-headers:
       Host: ushe-sw1.nnet.tech
