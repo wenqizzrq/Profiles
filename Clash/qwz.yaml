@@ -88,7 +88,7 @@ Proxy:
 # 更多协议配置示例：https://github.com/Dreamacro/clash/blob/master/README.md
 
 # VMess
-   - {"name":"V1上海 > 美国1-1倍率","type":"vmess","server":"ionus1.xt.pccw.best","port":443,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/static","tls":true,"ws-headers":{"Host":"ionus-sw1.nnet.tech"}}
+  - {"name":"V1上海 > 美国1-1倍率","type":"vmess","server":"ionus1.xt.pccw.best","port":443,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/static","tls":true,"ws-headers":{"Host":"ionus-sw1.nnet.tech"}}
   - {"name":"V1天津 > 美国-可看NF-1倍率","type":"vmess","server":"ushe1.xt.pccw.best","port":443,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/static","tls":true,"ws-headers":{"Host":"ushe-sw1.nnet.tech"}}
   - {"name":"V1广州 > 法国-1倍率","type":"vmess","server":"aws-fr.mmttpp.icu","port":80,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"aws-fr.nnet.tech"}}
   - {"name":"V1广州 > 美国1-可看NF-1.5倍率","type":"vmess","server":"us-he1.mmttpp.icu","port":80,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"us-he1.nnet.tech"}}
@@ -111,6 +111,7 @@ Proxy:
   - {"name":"V2枣庄 > 日本-1倍率","type":"vmess","server":"zz1-aws2.mmttpp.icu","port":20001,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"zz1-aws2.mmttpp.icu"}}
   - {"name":"V2武汉 > 香港-可看NF-1.5倍率","type":"vmess","server":"hkbn1-cm.mmttpp.icu","port":80,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"hkbn1-cm.nnet.tech"}}
   - {"name":"V2济南 > 日本-1倍率","type":"vmess","server":"awsjp1.xt.pccw.best","port":80,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/cdn-bin","ws-headers":{"Host":"awsjp-sw1.nnet.tech"}}
+  - {"name":"V2济南 > 韩国-1倍率","type":"vmess","server":"kr-aws.mmttpp.icu","port":80,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"kr-aws.nnet.tech"}}
   - {"name":"V2济南 > 香港1-可看NF-1.2倍率","type":"vmess","server":"azure2-1.xt.pccw.best","port":80,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/files","ws-headers":{"Host":"azure-sw2-1.nnet.tech"}}
   - {"name":"V2苏州 > 台湾-可看动画疯-1.2倍率","type":"vmess","server":"fly-hinet1.mmttpp.icu","port":80,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"fly-hinet1.nnet.tech"}}
 
