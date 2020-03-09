@@ -23,14 +23,14 @@ mode: Rule
 log-level: info
 
 # RESTful API for clash
-external-controller: 0.0.0.0:9090
+external-controller: 127.0.0.1:9090
 
 # you can put the static web resource (such as clash-dashboard) to a directory, and clash would serve in `${API}/ui`
 # input is a relative path to the configuration directory or an absolute path
 # external-ui: folder
 
 # RESTful API 的口令 (可选)
-secret: ""
+# secret: ""
 
 # experimental feature
 experimental:
@@ -88,22 +88,54 @@ cfw-latency-timeout: 5000
 Proxy:
 # 更多协议配置示例：https://github.com/Dreamacro/clash/blob/master/README.md
 
-# VMess
-#- name: "4"
-#  type: vmess
-#  server: v2ray.cool
-#  port: 443
-#  uuid: a3482e88-686a-4a58-8126-99c9df64b7bf
-#  alterId: 64
-#  cipher: auto
+# Shadowsocks 支持的加密方式:
+#   aes-128-gcm aes-192-gcm aes-256-gcm
+#   aes-128-cfb aes-192-cfb aes-256-cfb
+#   aes-128-ctr aes-192-ctr aes-256-ctr
+#   rc4-md5 chacha20-ietf xchacha20
+#   chacha20-ietf-poly1305 xchacha20-ietf-poly1305
+
+# Shadowsocks
+- name: "1"
+  type: ss
+  server: 1.2.4.8
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: "password"
   # udp: true
-  # tls: true
-  # skip-cert-verify: true
-  # network: ws
-  # ws-path: /path
-  # ws-headers:
-  #   Host: v2ray.com
- - name: V1上海 > 美国1-1倍率
+
+# Shadowsocks + simple-obfs
+- name: "2"
+  type: ss
+  server: 1.2.4.8
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: "password"
+  plugin: obfs
+  plugin-opts:
+    mode: tls # or http
+    # host: bing.com
+
+# Shadowsocks + v2ray-plugin
+- name: "3"
+  type: ss
+  server: 1.2.4.8
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: "password"
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket # no QUIC now
+    # tls: true # wss
+    # skip-cert-verify: true
+    # host: bing.com
+    # path: "/"
+    # mux: true
+    # headers:
+    #   custom: value
+
+# VMess
+  - name: V1上海 > 美国1-1倍率
     type: vmess
     server: ionus1.xt.pccw.best
     port: 443
@@ -420,6 +452,39 @@ Proxy:
     ws-headers:
       Host: azure-sw2-1.nnet.tech
 
+# 其他协议如 Socks5、HTTP、Snell 示例如下
+
+# socks5
+# - name: "socks"
+#   type: socks5
+#   server: server
+#   port: 443
+#   # username: username
+#   # password: password
+#   # tls: true
+#   # skip-cert-verify: true
+#   # udp: true
+
+# http
+# - name: "http"
+#   type: http
+#   server: server
+#   port: 443
+#   # username: username
+#   # password: password
+#   # tls: true # https
+#   # skip-cert-verify: true
+
+# snell
+# - name: "snell"
+#   type: snell
+#   server: server
+#   port: 44046
+#   psk: yourpsk
+#   # obfs-opts:
+#     # mode: http # or tls
+#     # host: bing.com
+
 # 代理组策略
 Proxy Group:
 
@@ -427,7 +492,7 @@ Proxy Group:
 - name: "UrlTest"
   type: url-test
   proxies:
-      - V1上海 > 美国1-1倍率
+     - V1上海 > 美国1-1倍率
       - V1天津 > 美国-可看NF-1倍率
       - V1广州 > 法国-1倍率
       - V1广州 > 美国1-可看NF-1.5倍率
@@ -526,63 +591,39 @@ Proxy Group:
   type: select
   proxies:
     - "PROXY"
-    - V1上海 > 美国1-1倍率
-    - V1天津 > 美国-可看NF-1倍率
-    - V1广州 > 法国-1倍率
-    - V1广州 > 美国1-可看NF-1.5倍率
-    - V1广州 > 美国2-1倍率
-    - V1广州 > 美国3-1倍率
-    - V1广州 > 美国4-可看NF-1倍率
-    - V1徐州 > 加拿大-1倍率
-    - V1枣庄 > 美国-1倍率
-    - V1武汉 > 美国1-可看NF-1倍率
-    - V1石家庄 > 美国-1倍率
-    - V2上海 > 香港1-可看NF-1.5倍率
-    - V2广州 > 台湾2-可看动漫疯-1.2倍率
-    - V2广州 > 台湾3-可看动漫疯-1.2倍率
-    - V2广州 > 新加坡-可看NF-1倍率
-    - V2广州 > 越南-可看NF-1.2倍率
-    - V2广州 > 香港3-可看NF-1.5倍率
-    - V2广州 > 香港5-可看NF-1.5倍率
-    - V2徐州 > 日本3-1倍率
-    - V2徐州 > 香港2-可看NF-1.5倍率
-    - V2枣庄 > 日本-1倍率
-    - V2枣庄 > 日本3-1倍率
-    - V2武汉 > 香港-可看NF-1.5倍率
-    - V2济南 > 日本-1倍率
-    - V2济南 > 韩国-1倍率
-    - V2济南 > 香港1-可看NF-1.2倍率
+      - V1天津 > 美国-可看NF-1倍率
+      - V1广州 > 美国1-可看NF-1.5倍率
+      - V1广州 > 美国4-可看NF-1倍率
+      - V1武汉 > 美国1-可看NF-1倍率
+      - V2上海 > 香港1-可看NF-1.5倍率
+      - V2广州 > 台湾2-可看动漫疯-1.2倍率
+      - V2广州 > 台湾3-可看动漫疯-1.2倍率
+      - V2广州 > 新加坡-可看NF-1倍率
+      - V2广州 > 越南-可看NF-1.2倍率
+      - V2广州 > 香港3-可看NF-1.5倍率
+      - V2广州 > 香港5-可看NF-1.5倍率
+      - V2徐州 > 香港2-可看NF-1.5倍率
+      - V2武汉 > 香港-可看NF-1.5倍率
+      - V2济南 > 香港1-可看NF-1.2倍率
 # 大陆流媒体面向港澳台限定服务
 - name: "HKMTMedia"
   type: select
   proxies:
     - "DIRECT"
-    - V1上海 > 美国1-1倍率
-    - V1天津 > 美国-可看NF-1倍率
-    - V1广州 > 法国-1倍率
-    - V1广州 > 美国1-可看NF-1.5倍率
-    - V1广州 > 美国2-1倍率
-    - V1广州 > 美国3-1倍率
-    - V1广州 > 美国4-可看NF-1倍率
-    - V1徐州 > 加拿大-1倍率
-    - V1枣庄 > 美国-1倍率
-    - V1武汉 > 美国1-可看NF-1倍率
-    - V1石家庄 > 美国-1倍率
-    - V2上海 > 香港1-可看NF-1.5倍率
-    - V2广州 > 台湾2-可看动漫疯-1.2倍率
-    - V2广州 > 台湾3-可看动漫疯-1.2倍率
-    - V2广州 > 新加坡-可看NF-1倍率
-    - V2广州 > 越南-可看NF-1.2倍率
-    - V2广州 > 香港3-可看NF-1.5倍率
-    - V2广州 > 香港5-可看NF-1.5倍率
-    - V2徐州 > 日本3-1倍率
-    - V2徐州 > 香港2-可看NF-1.5倍率
-    - V2枣庄 > 日本-1倍率
-    - V2枣庄 > 日本3-1倍率
-    - V2武汉 > 香港-可看NF-1.5倍率
-    - V2济南 > 日本-1倍率
-    - V2济南 > 韩国-1倍率
-    - V2济南 > 香港1-可看NF-1.2倍率
+      - V1天津 > 美国-可看NF-1倍率
+      - V1广州 > 美国1-可看NF-1.5倍率
+      - V1广州 > 美国4-可看NF-1倍率
+      - V1武汉 > 美国1-可看NF-1倍率
+      - V2上海 > 香港1-可看NF-1.5倍率
+      - V2广州 > 台湾2-可看动漫疯-1.2倍率
+      - V2广州 > 台湾3-可看动漫疯-1.2倍率
+      - V2广州 > 新加坡-可看NF-1倍率
+      - V2广州 > 越南-可看NF-1.2倍率
+      - V2广州 > 香港3-可看NF-1.5倍率
+      - V2广州 > 香港5-可看NF-1.5倍率
+      - V2徐州 > 香港2-可看NF-1.5倍率
+      - V2武汉 > 香港-可看NF-1.5倍率
+      - V2济南 > 香港1-可看NF-1.2倍率
 # 运营商及声名狼藉网站劫持
 - name: "Hijacking"
   type: select
@@ -2030,4 +2071,3 @@ Rule:
 - GEOIP,CN,DIRECT
 
 - MATCH,Final
-
