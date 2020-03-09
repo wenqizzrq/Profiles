@@ -32,8 +32,8 @@ external-controller: '0.0.0.0:9090'
 secret: ""
 
 # experimental feature
-# experimental:
-#  ignore-resolve-fail: true # ignore dns resolve fail, default value is true
+experimental:
+  ignore-resolve-fail: true # ignore dns resolve fail, default value is true
 
 # authentication of local SOCKS5/HTTP(S) server
 # authentication:
