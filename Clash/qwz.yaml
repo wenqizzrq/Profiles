@@ -32,8 +32,8 @@ external-controller: '0.0.0.0:9090'
 secret: ""
 
 # experimental feature
-experimental:
-  ignore-resolve-fail: true # ignore dns resolve fail, default value is true
+# experimental:
+#  ignore-resolve-fail: true # ignore dns resolve fail, default value is true
 
 # authentication of local SOCKS5/HTTP(S) server
 # authentication:
@@ -108,7 +108,6 @@ Proxy:
   - {"name":"V2广州 > 香港5-可看NF-1.5倍率","type":"vmess","server":"hkt1.xt.pccw.best","port":443,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/files","tls":true,"ws-headers":{"Host":"hkt-sw1.nnet.tech"}}
   - {"name":"V2徐州 > 日本3-1倍率","type":"vmess","server":"rc-xz1.mmttpp.icu","port":20004,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/files","ws-headers":{"Host":"rc-xz1.mmttpp.icu"}}
   - {"name":"V2徐州 > 香港2-可看NF-1.5倍率","type":"vmess","server":"rc-xz1.mmttpp.icu","port":20005,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"rc-xz1.mmttpp.icu"}}
-  - {"name":"V2枣庄 > 日本-1倍率","type":"vmess","server":"zz1-aws2.mmttpp.icu","port":20001,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"zz1-aws2.mmttpp.icu"}}
   - {"name":"V2武汉 > 香港-可看NF-1.5倍率","type":"vmess","server":"hkbn1-cm.mmttpp.icu","port":80,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"hkbn1-cm.nnet.tech"}}
   - {"name":"V2济南 > 日本-1倍率","type":"vmess","server":"awsjp1.xt.pccw.best","port":80,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/cdn-bin","ws-headers":{"Host":"awsjp-sw1.nnet.tech"}}
   - {"name":"V2济南 > 韩国-1倍率","type":"vmess","server":"kr-aws.mmttpp.icu","port":80,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"kr-aws.nnet.tech"}}
@@ -156,31 +155,29 @@ Proxy Group:
   type: url-test
   proxies:
      - V1上海 > 美国1-1倍率
-      - V1天津 > 美国-可看NF-1倍率
-      - V1广州 > 法国-1倍率
-      - V1广州 > 美国1-可看NF-1.5倍率
-      - V1广州 > 美国2-1倍率
-      - V1广州 > 美国3-1倍率
-      - V1广州 > 美国4-可看NF-1倍率
-      - V1徐州 > 加拿大-1倍率
-      - V1枣庄 > 美国-1倍率
-      - V1武汉 > 美国1-可看NF-1倍率
-      - V1石家庄 > 美国-1倍率
-      - V2上海 > 香港1-可看NF-1.5倍率
-      - V2广州 > 台湾2-可看动漫疯-1.2倍率
-      - V2广州 > 台湾3-可看动漫疯-1.2倍率
-      - V2广州 > 新加坡-可看NF-1倍率
-      - V2广州 > 越南-可看NF-1.2倍率
-      - V2广州 > 香港3-可看NF-1.5倍率
-      - V2广州 > 香港5-可看NF-1.5倍率
-      - V2徐州 > 日本3-1倍率
-      - V2徐州 > 香港2-可看NF-1.5倍率
-      - V2枣庄 > 日本-1倍率
-      - V2枣庄 > 日本3-1倍率
-      - V2武汉 > 香港-可看NF-1.5倍率
-      - V2济南 > 日本-1倍率
-      - V2济南 > 韩国-1倍率
-      - V2济南 > 香港1-可看NF-1.2倍率
+     - V1天津 > 美国-可看NF-1倍率
+     - V1广州 > 法国-1倍率
+     - V1广州 > 美国1-可看NF-1.5倍率
+     - V1广州 > 美国2-1倍率
+     - V1广州 > 美国3-1倍率
+     - V1广州 > 美国4-可看NF-1倍率
+     - V1徐州 > 加拿大-1倍率
+     - V1枣庄 > 美国-1倍率
+     - V1武汉 > 美国1-可看NF-1倍率
+     - V1石家庄 > 美国-1倍率
+     - V2上海 > 香港1-可看NF-1.5倍率
+     - V2广州 > 台湾2-可看动漫疯-1.2倍率
+     - V2广州 > 台湾3-可看动漫疯-1.2倍率
+     - V2广州 > 新加坡-可看NF-1倍率
+     - V2广州 > 越南-可看NF-1.2倍率
+     - V2广州 > 香港3-可看NF-1.5倍率
+     - V2广州 > 香港5-可看NF-1.5倍率
+     - V2徐州 > 日本3-1倍率
+     - V2徐州 > 香港2-可看NF-1.5倍率
+     - V2武汉 > 香港-可看NF-1.5倍率
+     - V2济南 > 日本-1倍率
+     - V2济南 > 韩国-1倍率
+     - V2济南 > 香港1-可看NF-1.2倍率
   url: 'http://www.gstatic.com/generate_204'
   interval: 300
 
@@ -231,7 +228,6 @@ Proxy Group:
     - 'V2广州 > 香港5-可看NF-1.5倍率'
     - 'V2徐州 > 日本3-1倍率'
     - 'V2徐州 > 香港2-可看NF-1.5倍率'
-    - 'V2枣庄 > 日本-1倍率'
     - 'V2武汉 > 香港-可看NF-1.5倍率'
     - 'V2济南 > 日本-1倍率'
     - 'V2济南 > 韩国-1倍率'
@@ -254,7 +250,7 @@ Proxy Group:
   type: select
   proxies:
     - "PROXY"
-     - 'V1上海 > 美国1-1倍率'
+    - 'V1上海 > 美国1-1倍率'
     - 'V1天津 > 美国-可看NF-1倍率'
     - 'V1广州 > 法国-1倍率'
     - 'V1广州 > 美国1-可看NF-1.5倍率'
@@ -274,7 +270,6 @@ Proxy Group:
     - 'V2广州 > 香港5-可看NF-1.5倍率'
     - 'V2徐州 > 日本3-1倍率'
     - 'V2徐州 > 香港2-可看NF-1.5倍率'
-    - 'V2枣庄 > 日本-1倍率'
     - 'V2武汉 > 香港-可看NF-1.5倍率'
     - 'V2济南 > 日本-1倍率'
     - 'V2济南 > 韩国-1倍率'
@@ -305,7 +300,6 @@ Proxy Group:
     - 'V2广州 > 香港5-可看NF-1.5倍率'
     - 'V2徐州 > 日本3-1倍率'
     - 'V2徐州 > 香港2-可看NF-1.5倍率'
-    - 'V2枣庄 > 日本-1倍率'
     - 'V2武汉 > 香港-可看NF-1.5倍率'
     - 'V2济南 > 日本-1倍率'
     - 'V2济南 > 韩国-1倍率'
