@@ -90,29 +90,31 @@ Proxy:
 # VMess
   - {"name":"V1上海 > 美国1-1倍率","type":"vmess","server":"ionus1.xt.pccw.best","port":443,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/static","tls":true,"ws-headers":{"Host":"ionus-sw1.nnet.tech"}}
   - {"name":"V1天津 > 美国-可看NF-1倍率","type":"vmess","server":"ushe1.xt.pccw.best","port":443,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/static","tls":true,"ws-headers":{"Host":"ushe-sw1.nnet.tech"}}
-  - {"name":"V1广州 > 法国-1倍率","type":"vmess","server":"aws-fr.mmttpp.icu","port":80,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"aws-fr.nnet.tech"}}
-  - {"name":"V1广州 > 美国1-可看NF-1.5倍率","type":"vmess","server":"us-he1.mmttpp.icu","port":80,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"us-he1.nnet.tech"}}
   - {"name":"V1广州 > 美国2-1倍率","type":"vmess","server":"aws-us.mmttpp.icu","port":80,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"aws-us.nnet.tech"}}
   - {"name":"V1广州 > 美国3-1倍率","type":"vmess","server":"cuus1.xt.pccw.best","port":80,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/assets","ws-headers":{"Host":"cuus-sw1.nnet.tech"}}
   - {"name":"V1广州 > 美国4-可看NF-1倍率","type":"vmess","server":"ushe2.xt.pccw.best","port":80,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/files","ws-headers":{"Host":"ushe-sw2.nnet.tech"}}
   - {"name":"V1徐州 > 加拿大-1倍率","type":"vmess","server":"rc-xz1.mmttpp.icu","port":10001,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"rc-xz1.mmttpp.icu"}}
   - {"name":"V1枣庄 > 美国-1倍率","type":"vmess","server":"zz1-he2.mmttpp.icu","port":10001,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"zz1-he2.mmttpp.icu"}}
+  - {"name":"V1枣庄 > 美国2-1倍率","type":"vmess","server":"rc-zz1.mmttpp.icu","port":20004,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"rc-zz1.mmttpp.icu"}}
   - {"name":"V1武汉 > 美国1-可看NF-1倍率","type":"vmess","server":"dmitus1.xt.pccw.best","port":80,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/files","ws-headers":{"Host":"dmit-sw1.nnet.tech"}}
-  - {"name":"V1石家庄 > 美国-1倍率","type":"vmess","server":"us-buy.mmttpp.icu","port":80,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/files","ws-headers":{"Host":"us-buy.nnet.tech"}}
   - {"name":"V2上海 > 香港1-可看NF-1.5倍率","type":"vmess","server":"azure3.xt.pccw.best","port":443,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/dists","tls":true,"ws-headers":{"Host":"azure-sw1-3.nnet.tech"}}
+  - {"name":"V2常州 > 日本-应急节点-2倍率","type":"vmess","server":"cn-cokp.ap.swish.tech","port":60080,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"cn-cokp.ap.swish.tech"}}
   - {"name":"V2广州 > 台湾2-可看动漫疯-1.2倍率","type":"vmess","server":"hinet2.xt.pccw.best","port":80,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/resources","ws-headers":{"Host":"hinet-sw2.nnet.tech"}}
-  - {"name":"V2广州 > 台湾3-可看动漫疯-1.2倍率","type":"vmess","server":"hinet-to.mmttpp.icu","port":80,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"hinet-flys1.nnet.tech"}}
   - {"name":"V2广州 > 新加坡-可看NF-1倍率","type":"vmess","server":"awssg1.xt.pccw.best","port":80,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/static","ws-headers":{"Host":"awssg-sw1.nnet.tech"}}
-  - {"name":"V2广州 > 越南-可看NF-1.2倍率","type":"vmess","server":"ynpt1.mmttpp.icu","port":80,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/download","ws-headers":{"Host":"fly-ynpt1.nnet.tech"}}
-  - {"name":"V2广州 > 香港3-可看NF-1.5倍率","type":"vmess","server":"hkt2.xt.pccw.best","port":80,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/files","ws-headers":{"Host":"hkt-sw2.nnet.tech"}}
-  - {"name":"V2广州 > 香港5-可看NF-1.5倍率","type":"vmess","server":"hkt1.xt.pccw.best","port":443,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/files","tls":true,"ws-headers":{"Host":"hkt-sw1.nnet.tech"}}
+  - {"name":"V2徐州 > 新加坡-应急节点-10倍率","type":"vmess","server":"cn-kaux.ap.stars.run","port":61080,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"cn-kaux.ap.stars.run"}}
+  - {"name":"V2徐州 > 日本-1倍率","type":"vmess","server":"rc-xz1.mmttpp.icu","port":20001,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/bucket","ws-headers":{"Host":"rc-xz1.mmttpp.icu"}}
+  - {"name":"V2徐州 > 日本2-1倍率","type":"vmess","server":"rc-xz1.mmttpp.icu","port":20002,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"rc-xz1.mmttpp.icu"}}
   - {"name":"V2徐州 > 日本3-1倍率","type":"vmess","server":"rc-xz1.mmttpp.icu","port":20004,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/files","ws-headers":{"Host":"rc-xz1.mmttpp.icu"}}
+  - {"name":"V2徐州 > 香港-可看NF-1.5倍率","type":"vmess","server":"rc-xz1.mmttpp.icu","port":20003,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"rc-xz1.mmttpp.icu"}}
   - {"name":"V2徐州 > 香港2-可看NF-1.5倍率","type":"vmess","server":"rc-xz1.mmttpp.icu","port":20005,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"rc-xz1.mmttpp.icu"}}
+  - {"name":"V2枣庄 > 日本-1倍率","type":"vmess","server":"zz1-aws2.mmttpp.icu","port":20001,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"zz1-aws2.mmttpp.icu"}}
+  - {"name":"V2枣庄 > 日本2-1倍率","type":"vmess","server":"zz1-gmo2.mmttpp.icu","port":20002,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"zz1-gmo2.mmttpp.icu"}}
+  - {"name":"V2枣庄 > 日本3-1倍率","type":"vmess","server":"rc-zz1.mmttpp.icu","port":20003,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"rc-zz1.mmttpp.icu"}}
   - {"name":"V2武汉 > 香港-可看NF-1.5倍率","type":"vmess","server":"hkbn1-cm.mmttpp.icu","port":80,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"hkbn1-cm.nnet.tech"}}
   - {"name":"V2济南 > 日本-1倍率","type":"vmess","server":"awsjp1.xt.pccw.best","port":80,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/cdn-bin","ws-headers":{"Host":"awsjp-sw1.nnet.tech"}}
-  - {"name":"V2济南 > 韩国-1倍率","type":"vmess","server":"kr-aws.mmttpp.icu","port":80,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"kr-aws.nnet.tech"}}
   - {"name":"V2济南 > 香港1-可看NF-1.2倍率","type":"vmess","server":"azure2-1.xt.pccw.best","port":80,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/files","ws-headers":{"Host":"azure-sw2-1.nnet.tech"}}
-  - {"name":"V2苏州 > 台湾-可看动画疯-1.2倍率","type":"vmess","server":"fly-hinet1.mmttpp.icu","port":80,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"fly-hinet1.nnet.tech"}}
+  - {"name":"V2绍兴 > 香港3-可看NF-1.5倍率","type":"vmess","server":"hkt2.xt.pccw.best","port":10080,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/files","ws-headers":{"Host":"hkt-sw2.nnet.tech"}}
+  - {"name":"V2绍兴 > 香港5-可看NF-1.5倍率","type":"vmess","server":"hkt1.xt.pccw.best","port":10443,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/files","tls":true,"ws-headers":{"Host":"hkt-sw1.nnet.tech"}}
 
 # 其他协议如 Socks5、HTTP、Snell 示例如下
 
@@ -154,30 +156,33 @@ Proxy Group:
 - name: "UrlTest"
   type: url-test
   proxies:
-     - V1上海 > 美国1-1倍率
-     - V1天津 > 美国-可看NF-1倍率
-     - V1广州 > 法国-1倍率
-     - V1广州 > 美国1-可看NF-1.5倍率
-     - V1广州 > 美国2-1倍率
-     - V1广州 > 美国3-1倍率
-     - V1广州 > 美国4-可看NF-1倍率
-     - V1徐州 > 加拿大-1倍率
-     - V1枣庄 > 美国-1倍率
-     - V1武汉 > 美国1-可看NF-1倍率
-     - V1石家庄 > 美国-1倍率
-     - V2上海 > 香港1-可看NF-1.5倍率
-     - V2广州 > 台湾2-可看动漫疯-1.2倍率
-     - V2广州 > 台湾3-可看动漫疯-1.2倍率
-     - V2广州 > 新加坡-可看NF-1倍率
-     - V2广州 > 越南-可看NF-1.2倍率
-     - V2广州 > 香港3-可看NF-1.5倍率
-     - V2广州 > 香港5-可看NF-1.5倍率
-     - V2徐州 > 日本3-1倍率
-     - V2徐州 > 香港2-可看NF-1.5倍率
-     - V2武汉 > 香港-可看NF-1.5倍率
-     - V2济南 > 日本-1倍率
-     - V2济南 > 韩国-1倍率
-     - V2济南 > 香港1-可看NF-1.2倍率
+    - 'V1上海 > 美国1-1倍率'
+    - 'V1天津 > 美国-可看NF-1倍率'
+    - 'V1广州 > 美国2-1倍率'
+    - 'V1广州 > 美国3-1倍率'
+    - 'V1广州 > 美国4-可看NF-1倍率'
+    - 'V1徐州 > 加拿大-1倍率'
+    - 'V1枣庄 > 美国-1倍率'
+    - 'V1枣庄 > 美国2-1倍率'
+    - 'V1武汉 > 美国1-可看NF-1倍率'
+    - 'V2上海 > 香港1-可看NF-1.5倍率'
+    - 'V2常州 > 日本-应急节点-2倍率'
+    - 'V2广州 > 台湾2-可看动漫疯-1.2倍率'
+    - 'V2广州 > 新加坡-可看NF-1倍率'
+    - 'V2徐州 > 新加坡-应急节点-10倍率'
+    - 'V2徐州 > 日本-1倍率'
+    - 'V2徐州 > 日本2-1倍率'
+    - 'V2徐州 > 日本3-1倍率'
+    - 'V2徐州 > 香港-可看NF-1.5倍率'
+    - 'V2徐州 > 香港2-可看NF-1.5倍率'
+    - 'V2枣庄 > 日本-1倍率'
+    - 'V2枣庄 > 日本2-1倍率'
+    - 'V2枣庄 > 日本3-1倍率'
+    - 'V2武汉 > 香港-可看NF-1.5倍率'
+    - 'V2济南 > 日本-1倍率'
+    - 'V2济南 > 香港1-可看NF-1.2倍率'
+    - 'V2绍兴 > 香港3-可看NF-1.5倍率'
+    - 'V2绍兴 > 香港5-可看NF-1.5倍率'
   url: 'http://www.gstatic.com/generate_204'
   interval: 300
 
@@ -207,32 +212,34 @@ Proxy Group:
 - name: "PROXY"
   type: select
   proxies:
-    - "UrlTest"
-    - 'V1上海 > 美国1-1倍率'
+   - "UrlTest"
+   - 'V1上海 > 美国1-1倍率'
     - 'V1天津 > 美国-可看NF-1倍率'
-    - 'V1广州 > 法国-1倍率'
-    - 'V1广州 > 美国1-可看NF-1.5倍率'
     - 'V1广州 > 美国2-1倍率'
     - 'V1广州 > 美国3-1倍率'
     - 'V1广州 > 美国4-可看NF-1倍率'
     - 'V1徐州 > 加拿大-1倍率'
     - 'V1枣庄 > 美国-1倍率'
+    - 'V1枣庄 > 美国2-1倍率'
     - 'V1武汉 > 美国1-可看NF-1倍率'
-    - 'V1石家庄 > 美国-1倍率'
     - 'V2上海 > 香港1-可看NF-1.5倍率'
+    - 'V2常州 > 日本-应急节点-2倍率'
     - 'V2广州 > 台湾2-可看动漫疯-1.2倍率'
-    - 'V2广州 > 台湾3-可看动漫疯-1.2倍率'
     - 'V2广州 > 新加坡-可看NF-1倍率'
-    - 'V2广州 > 越南-可看NF-1.2倍率'
-    - 'V2广州 > 香港3-可看NF-1.5倍率'
-    - 'V2广州 > 香港5-可看NF-1.5倍率'
+    - 'V2徐州 > 新加坡-应急节点-10倍率'
+    - 'V2徐州 > 日本-1倍率'
+    - 'V2徐州 > 日本2-1倍率'
     - 'V2徐州 > 日本3-1倍率'
+    - 'V2徐州 > 香港-可看NF-1.5倍率'
     - 'V2徐州 > 香港2-可看NF-1.5倍率'
+    - 'V2枣庄 > 日本-1倍率'
+    - 'V2枣庄 > 日本2-1倍率'
+    - 'V2枣庄 > 日本3-1倍率'
     - 'V2武汉 > 香港-可看NF-1.5倍率'
     - 'V2济南 > 日本-1倍率'
-    - 'V2济南 > 韩国-1倍率'
     - 'V2济南 > 香港1-可看NF-1.2倍率'
-    - 'V2苏州 > 台湾-可看动画疯-1.2倍率'
+    - 'V2绍兴 > 香港3-可看NF-1.5倍率'
+    - 'V2绍兴 > 香港5-可看NF-1.5倍率'
 # 白名单模式 PROXY，黑名单模式 DIRECT
 - name: "Final"
   type: select
@@ -251,50 +258,49 @@ Proxy Group:
   proxies:
     - "PROXY"
     - 'V1天津 > 美国-可看NF-1倍率'
-    - 'V1广州 > 美国1-可看NF-1.5倍率'
     - 'V1广州 > 美国4-可看NF-1倍率'
     - 'V1武汉 > 美国1-可看NF-1倍率'
     - 'V2上海 > 香港1-可看NF-1.5倍率'
     - 'V2广州 > 台湾2-可看动漫疯-1.2倍率'
-    - 'V2广州 > 台湾3-可看动漫疯-1.2倍率'
     - 'V2广州 > 新加坡-可看NF-1倍率'
-    - 'V2广州 > 越南-可看NF-1.2倍率'
-    - 'V2广州 > 香港3-可看NF-1.5倍率'
-    - 'V2广州 > 香港5-可看NF-1.5倍率'
+    - 'V2徐州 > 香港-可看NF-1.5倍率'
     - 'V2徐州 > 香港2-可看NF-1.5倍率'
     - 'V2武汉 > 香港-可看NF-1.5倍率'
     - 'V2济南 > 香港1-可看NF-1.2倍率'
-    - 'V2苏州 > 台湾-可看动画疯-1.2倍率'
+    - 'V2绍兴 > 香港3-可看NF-1.5倍率'
+    - 'V2绍兴 > 香港5-可看NF-1.5倍率'
 # 大陆流媒体面向港澳台限定服务
 - name: "HKMTMedia"
   type: select
   proxies:
     - "DIRECT"
-    - 'V1上海 > 美国1-1倍率'
+- 'V1上海 > 美国1-1倍率'
     - 'V1天津 > 美国-可看NF-1倍率'
-    - 'V1广州 > 法国-1倍率'
-    - 'V1广州 > 美国1-可看NF-1.5倍率'
     - 'V1广州 > 美国2-1倍率'
     - 'V1广州 > 美国3-1倍率'
     - 'V1广州 > 美国4-可看NF-1倍率'
     - 'V1徐州 > 加拿大-1倍率'
     - 'V1枣庄 > 美国-1倍率'
+    - 'V1枣庄 > 美国2-1倍率'
     - 'V1武汉 > 美国1-可看NF-1倍率'
-    - 'V1石家庄 > 美国-1倍率'
     - 'V2上海 > 香港1-可看NF-1.5倍率'
+    - 'V2常州 > 日本-应急节点-2倍率'
     - 'V2广州 > 台湾2-可看动漫疯-1.2倍率'
-    - 'V2广州 > 台湾3-可看动漫疯-1.2倍率'
     - 'V2广州 > 新加坡-可看NF-1倍率'
-    - 'V2广州 > 越南-可看NF-1.2倍率'
-    - 'V2广州 > 香港3-可看NF-1.5倍率'
-    - 'V2广州 > 香港5-可看NF-1.5倍率'
+    - 'V2徐州 > 新加坡-应急节点-10倍率'
+    - 'V2徐州 > 日本-1倍率'
+    - 'V2徐州 > 日本2-1倍率'
     - 'V2徐州 > 日本3-1倍率'
+    - 'V2徐州 > 香港-可看NF-1.5倍率'
     - 'V2徐州 > 香港2-可看NF-1.5倍率'
+    - 'V2枣庄 > 日本-1倍率'
+    - 'V2枣庄 > 日本2-1倍率'
+    - 'V2枣庄 > 日本3-1倍率'
     - 'V2武汉 > 香港-可看NF-1.5倍率'
     - 'V2济南 > 日本-1倍率'
-    - 'V2济南 > 韩国-1倍率'
     - 'V2济南 > 香港1-可看NF-1.2倍率'
-    - 'V2苏州 > 台湾-可看动画疯-1.2倍率'
+    - 'V2绍兴 > 香港3-可看NF-1.5倍率'
+    - 'V2绍兴 > 香港5-可看NF-1.5倍率'
 # 运营商及声名狼藉网站劫持
 - name: "Hijacking"
   type: select
