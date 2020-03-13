@@ -115,7 +115,38 @@ Proxy:
   - {"name":"V2济南 > 香港1-可看NF-1.2倍率","type":"vmess","server":"azure2-1.xt.pccw.best","port":80,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/files","ws-headers":{"Host":"azure-sw2-1.nnet.tech"}}
   - {"name":"V2绍兴 > 香港3-可看NF-1.5倍率","type":"vmess","server":"hkt2.xt.pccw.best","port":10080,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/files","ws-headers":{"Host":"hkt-sw2.nnet.tech"}}
   - {"name":"V2绍兴 > 香港5-可看NF-1.5倍率","type":"vmess","server":"hkt1.xt.pccw.best","port":10443,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/files","tls":true,"ws-headers":{"Host":"hkt-sw1.nnet.tech"}}
-
+  - {name: 🇷🇺 俄罗斯 A  Netflix可 0.1x, server: 91.206.93.184, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
+  - {name: 🇷🇺 俄罗斯 A 大带宽 0.1x, server: 213.183.48.63, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
+  - {name: 🇷🇺 俄罗斯 B Netflix可  0.1x, server: 45.137.154.145, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
+  - {name: 🇷🇺 俄罗斯 B 大带宽 0.1x, server: 213.183.48.8, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
+  - {name: 🇷🇺 俄罗斯 D Netflix可  0.1x, server: 193.38.51.213, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
+  - {name: 🇷🇺 俄罗斯 E Netflix可  0.1x, server: 194.5.79.18, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
+  - {name: 🇷🇺 俄罗斯 F Netflix可  0.1x, server: 194.5.79.19, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
+  - {name: 🇨🇳 台湾 HiNet Netflix可, server: tw.tomatooo.xyz, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
+  - {name: 🇸🇬 新加坡 A Netflix可, server: 149.129.57.98, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
+  - {name: 🇸🇬 新加坡 B, server: 18.139.228.0, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
+  - {name: 🇸🇬 新加坡 B Netflix可, server: 149.129.43.133, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
+  - {name: 🇸🇬 新加坡 C, server: 13.229.85.219, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
+  - {name: 🇸🇬 新加坡 D, server: 18.136.196.120, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
+  - {name: 🇯🇵 日本 A, server: 54.238.188.53, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
+  - {name: 🇯🇵 日本 B, server: 54.64.184.84, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
+  - {name: 🇯🇵 日本 C, server: 18.179.5.28, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
+  - {name: 🇺🇲 美国 洛杉矶, server: 157.245.188.84, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
+  - {name: 🇺🇲 美国 洛杉矶2, server: 23.234.197.19, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
+  - {name: 🇭🇰 香港 A, server: 47.240.88.149, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
+  - {name: 🇭🇰 香港 B, server: 47.240.92.145, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
+  - {name: 🇭🇰 香港 C, server: 47.240.2.166, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
+  - {name: 🇭🇰 香港 D, server: 47.240.18.58, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
+  - {name: 🇭🇰 香港 E, server: 47.240.105.39, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
+  - {name: 🇭🇰 香港 F, server: 47.240.25.145, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
+  - {name: 🇭🇰 香港 G, server: 47.240.66.251, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
+  - {name: 🇭🇰 香港 H Netflix可 2x, server: 149.129.98.233, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
+  - {name: 🇭🇰 香港 I, server: 47.240.114.51, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
+  - {name: 🇭🇰 香港 J, server: 47.240.114.81, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
+  - {name: 🇭🇰 香港 K, server: 47.240.112.208, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
+  - {name: 🇭🇰 香港 L, server: 47.240.171.239, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
+  - {name: 🇭🇰 香港 M, server: 47.240.58.112, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
+Proxy Group:
 # 其他协议如 Socks5、HTTP、Snell 示例如下
 
 # socks5
@@ -183,6 +214,37 @@ Proxy Group:
     - 'V2济南 > 香港1-可看NF-1.2倍率'
     - 'V2绍兴 > 香港3-可看NF-1.5倍率'
     - 'V2绍兴 > 香港5-可看NF-1.5倍率'
+    - 🇷🇺 俄罗斯 A  Netflix可 0.1x
+    - 🇷🇺 俄罗斯 A 大带宽 0.1x
+    - 🇷🇺 俄罗斯 B Netflix可  0.1x
+    - 🇷🇺 俄罗斯 B 大带宽 0.1x
+    - 🇷🇺 俄罗斯 D Netflix可  0.1x
+    - 🇷🇺 俄罗斯 E Netflix可  0.1x
+    - 🇷🇺 俄罗斯 F Netflix可  0.1x
+    - 🇨🇳 台湾 HiNet Netflix可
+    - 🇸🇬 新加坡 A Netflix可
+    - 🇸🇬 新加坡 B
+    - 🇸🇬 新加坡 B Netflix可
+    - 🇸🇬 新加坡 C
+    - 🇸🇬 新加坡 D
+    - 🇯🇵 日本 A
+    - 🇯🇵 日本 B
+    - 🇯🇵 日本 C
+    - 🇺🇲 美国 洛杉矶
+    - 🇺🇲 美国 洛杉矶2
+    - 🇭🇰 香港 A
+    - 🇭🇰 香港 B
+    - 🇭🇰 香港 C
+    - 🇭🇰 香港 D
+    - 🇭🇰 香港 E
+    - 🇭🇰 香港 F
+    - 🇭🇰 香港 G
+    - 🇭🇰 香港 H Netflix可 2x
+    - 🇭🇰 香港 I
+    - 🇭🇰 香港 J
+    - 🇭🇰 香港 K
+    - 🇭🇰 香港 L
+    - 🇭🇰 香港 M
   url: 'http://www.gstatic.com/generate_204'
   interval: 300
 
