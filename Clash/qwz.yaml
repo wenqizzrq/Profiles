@@ -88,56 +88,38 @@ Proxy:
 # 更多协议配置示例：https://github.com/Dreamacro/clash/blob/master/README.md
 
 # VMess
-  - {"name":"V1三网直连 > 香港1-2倍率","type":"vmess","server":"fly-hkt1.mmttpp.icu","port":8081,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/download","ws-headers":{"Host":"fly-hkt1.mmttpp.icu"}}
-  - {"name":"V1电信/联通直连 > 美国3-1倍率","type":"vmess","server":"cuus1.xt.pccw.best","port":80,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/assets","ws-headers":{"Host":"cuus-sw1.nnet.tech"}}
-  - {"name":"V1电信/联通直连 > 美国4-1.5倍率","type":"vmess","server":"ionus1.xt.pccw.best","port":80,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/static","ws-headers":{"Host":"ionus-sw1.nnet.tech"}}
-  - {"name":"V1电信/联通直连 > 美国5-1倍率","type":"vmess","server":"ktus3.xt.pccw.best","port":80,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/cache"}
-  - {"name":"V1电信/联通直连 > 美国6-1倍率","type":"vmess","server":"ktus1.xt.pccw.best","port":80,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/cache"}
-  - {"name":"V1移动直连 > 越南1-2倍率","type":"vmess","server":"ynpt1.mmttpp.icu","port":80,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"ynpt1.mmttpp.icu"}}
-  - {"name":"V1联通直连 > 美国1-可看NF-1倍率","type":"vmess","server":"dmitus1.xt.pccw.best","port":80,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/files","ws-headers":{"Host":"dmit-sw1.nnet.tech"}}
-  - {"name":"V1联通直连 > 美国2-1倍率","type":"vmess","server":"aws-us.mmttpp.icu","port":80,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"aws-us.nnet.tech"}}
-  - {"name":"V1联通直连 > 美国5-可看NF-1倍率","type":"vmess","server":"ushe1.xt.pccw.best","port":443,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/static","tls":true,"ws-headers":{"Host":"ushe-sw1.nnet.tech"}}
-  - {"name":"V2常州 > 日本-2倍率","type":"vmess","server":"cn-cokp.ap.swish.tech","port":60080,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"cn-cokp.ap.swish.tech"}}
-  - {"name":"V2枣庄 > 日本2-1倍率","type":"vmess","server":"zz1-gmo2.mmttpp.icu","port":20002,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"zz1-gmo2.mmttpp.icu"}}
-  - {"name":"V2枣庄 > 美国-1倍率","type":"vmess","server":"zz1-he2.mmttpp.icu","port":10001,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"zz1-he2.mmttpp.icu"}}
-  - {"name":"V2湖南 > 台湾2-可看动漫疯-1.2倍率","type":"vmess","server":"hinet2.xt.pccw.best","port":60080,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/resources","ws-headers":{"Host":"hinet-sw2.nnet.tech"}}
-  - {"name":"V2湖南 > 新加坡-可看NF-1倍率","type":"vmess","server":"awssg1.xt.pccw.best","port":60080,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/static","ws-headers":{"Host":"awssg-sw1.nnet.tech"}}
-  - {"name":"V2湖南 > 美国1-可看NF-1倍率","type":"vmess","server":"ushe2.xt.pccw.best","port":60380,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/files","ws-headers":{"Host":"ushe-sw2.nnet.tech"}}
-  - {"name":"V2湖南 > 香港1-可看NF-1.2倍率","type":"vmess","server":"azure2-1.xt.pccw.best","port":60080,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/files","ws-headers":{"Host":"azure-sw2-1.nnet.tech"}}
-  - {"name":"V2湖南 > 香港3-可看NF-1.5倍率","type":"vmess","server":"azure3.xt.pccw.best","port":60180,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/dists","ws-headers":{"Host":"azure-sw1-3.nnet.tech"}}
-  - {"name":"V2绍兴 > 香港3-可看NF-1.5倍率","type":"vmess","server":"hkt2.xt.pccw.best","port":10080,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/files","ws-headers":{"Host":"hkt-sw2.nnet.tech"}}
-  - {"name":"V2绍兴 > 香港5-可看NF-1.5倍率","type":"vmess","server":"hkt1.xt.pccw.best","port":10443,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/files","tls":true,"ws-headers":{"Host":"hkt-sw1.nnet.tech"}}
-  - {"name":"V2茂名 > 香港-电信优化-6倍率","type":"vmess","server":"frhk.flysocksrockert.icu","port":12109,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/download","ws-headers":{"Host":"frhk.flysocksrockert.icu"}}
-  - {"name":"V2辽宁 > 日本1-1倍率","type":"vmess","server":"ln.temp.xt.pccw.best","port":20001,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/bucket","ws-headers":{"Host":"rc-xz1.mmttpp.icu"}}
-  - {"name":"V2辽宁 > 香港1-可看NF-1.5倍率","type":"vmess","server":"ln.temp.xt.pccw.best","port":20003,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"rc-xz1.mmttpp.icu"}}
-  - {name: 🇷🇺 俄罗斯 A 大带宽 0.1x, server: 213.183.48.63, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
-  - {name: 🇷🇺 俄罗斯 B Netflix可  0.1x, server: 45.137.154.145, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
-  - {name: 🇷🇺 俄罗斯 B 大带宽 0.1x, server: 213.183.48.8, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
-  - {name: 🇷🇺 俄罗斯 D Netflix可  0.1x, server: 193.38.51.213, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
-  - {name: 🇨🇳 台湾 HiNet Netflix可, server: tw.tomatooo.xyz, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
-  - {name: 🇸🇬 新加坡 A Netflix可, server: 149.129.57.98, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
-  - {name: 🇸🇬 新加坡 B, server: 18.139.228.0, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
-  - {name: 🇸🇬 新加坡 B Netflix可, server: 149.129.43.133, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
-  - {name: 🇸🇬 新加坡 C, server: 13.229.85.219, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
-  - {name: 🇸🇬 新加坡 D, server: 18.136.196.120, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
-  - {name: 🇯🇵 日本 A, server: 54.238.188.53, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
-  - {name: 🇯🇵 日本 B, server: 54.64.184.84, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
-  - {name: 🇯🇵 日本 C, server: 18.179.5.28, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
-  - {name: 🇺🇲 美国 洛杉矶, server: 157.245.188.84, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
-  - {name: 🇺🇲 美国 洛杉矶2, server: 23.234.197.19, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
-  - {name: 🇭🇰 香港 A, server: 47.240.88.149, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
-  - {name: 🇭🇰 香港 B, server: 47.240.92.145, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
-  - {name: 🇭🇰 香港 C, server: 47.240.2.166, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
-  - {name: 🇭🇰 香港 D, server: 47.240.18.58, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
-  - {name: 🇭🇰 香港 E, server: 47.240.105.39, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
-  - {name: 🇭🇰 香港 F, server: 47.240.25.145, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
-  - {name: 🇭🇰 香港 G, server: 47.240.66.251, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
-  - {name: 🇭🇰 香港 H Netflix可 2x, server: 149.129.98.233, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
-  - {name: 🇭🇰 香港 I, server: 47.240.114.51, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
-  - {name: 🇭🇰 香港 J, server: 47.240.114.81, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
-  - {name: 🇭🇰 香港 K, server: 47.240.112.208, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
-  - {name: 🇭🇰 香港 L, server: 47.240.171.239, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
-  - {name: 🇭🇰 香港 M, server: 47.240.58.112, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8af8518162.microsoft.com}}
+  - {"name":"V1三网直连 > 香港1-3倍率","type":"vmess","server":"dr-az1.xtspeeder001.xyz","port":80,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/download","ws-headers":{"Host":"www.microsoft.com"}}
+  - {"name":"V1三网直连 > 香港2-可看NF-2倍率","type":"vmess","server":"dr-fly-hkbm1.xtspeeder001.xyz","port":8888,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"hkbn1-cm.nnet.tech"}}
+  - {"name":"V1三网直连 > 香港3-2倍率","type":"vmess","server":"fly-hkt2.xtspeeder001.xyz","port":8080,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/speedtest","ws-headers":{"Host":"fly-hkt2.xtspeeder001.xyz"}}
+  - {"name":"V1三网直连 > 香港4-2倍率","type":"vmess","server":"dr-fly-hkt3.xtspeeder001.xyz","port":8888,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/files","ws-headers":{"Host":"www.cloudflare.com"}}
+  - {"name":"V1三网直连 > 香港5-3倍率","type":"vmess","server":"azhkunlim.xtspeeder001.xyz","port":8443,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"www.microsoft.com"}}
+  - {"name":"V1三网直连 > 香港6-2倍率","type":"vmess","server":"dr-hkt1.xtspeeder001.xyz","port":80,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/videos","ws-headers":{"Host":"v6-dy.ixigua.com"}}
+  - {"name":"V1上海 > 日本1-2倍率","type":"vmess","server":"cu-sh-1.xtspeeder001.xyz","port":10003,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"V1上海 > 日本2-2倍率","type":"vmess","server":"cu-sh-1.xtspeeder001.xyz","port":10005,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"V1上海 > 美国1-可看NF-1倍率","type":"vmess","server":"ushe2.xt.pccw.best","port":60380,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/files","ws-headers":{"Host":"ushe-sw2.nnet.tech"}}
+  - {"name":"V1上海 > 美国2-可看NF-1倍率","type":"vmess","server":"ushe3.xt.pccw.best","port":60480,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/files","ws-headers":{"Host":"ushe-sw3.nnet.tech"}}
+  - {"name":"V1上海 > 美国3-可看NF-1倍率","type":"vmess","server":"cu-sh-1.xtspeeder001.xyz","port":10001,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"V1上海 > 美国4-可看NF-1倍率","type":"vmess","server":"cu-sh-1.xtspeeder001.xyz","port":10002,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"V1联通直连 > 美国3-1倍率","type":"vmess","server":"dr-fly-he2.xtspeeder001.xyz","port":8888,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"www.baidu.com"}}
+  - {"name":"V2武汉 > 新加坡1-3倍率","type":"vmess","server":"net-sg.xt.pccw.best","port":80,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/download","ws-headers":{"Host":"sw-az-sgp1.mzetech.net"}}
+  - {"name":"V2武汉 > 香港1-3倍率","type":"vmess","server":"dl-77.xtcdns.top","port":80,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"hkaz1-unlim-fly.mzetech.net"}}
+  - {"name":"V2洛阳 > 台湾1-1倍率","type":"vmess","server":"cm-ny.xtspeeder001.xyz","port":20001,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"V2洛阳 > 台湾3-可看动漫疯-1倍率","type":"vmess","server":"hinet3.xt.pccw.best","port":60080,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true}
+  - {"name":"V2洛阳 > 美国-1倍率","type":"vmess","server":"snp-us.xt.pccw.best","port":60280,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/speedtest","ws-headers":{"Host":"jd.hk"}}
+  - {"name":"V2洛阳 > 韩国1-1倍率","type":"vmess","server":"cm-ny.xtspeeder001.xyz","port":20003,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"V2洛阳 > 韩国2-1倍率","type":"vmess","server":"cm-ny.xtspeeder001.xyz","port":20005,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"V2洛阳 > 香港1-1倍率","type":"vmess","server":"cm-ny.xtspeeder001.xyz","port":20006,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"V2洛阳 > 香港2-可看NF-1倍率","type":"vmess","server":"cm-ny.xtspeeder001.xyz","port":20002,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"V2洛阳 > 香港3-可看NF-1倍率","type":"vmess","server":"cm-ny.xtspeeder001.xyz","port":20007,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"V2洛阳 > 香港4-可看NF-1倍率","type":"vmess","server":"cm-ny.xtspeeder001.xyz","port":20008,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"V2济南 > 加拿大1-1倍率","type":"vmess","server":"dl-60-t1.xtcdns.top","port":80,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"fly-caovh.mzetech.net"}}
+  - {"name":"V2济南 > 香港1-3倍率","type":"vmess","server":"dl-79.xtcdns.top","port":80,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/speedtest","ws-headers":{"Host":"fly-hkt2.mzetech.net"}}
+  - {"name":"V2湖南 > 日本1-2倍率","type":"vmess","server":"hn-co-1.xtspeeder001.xyz","port":20001,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"V2湖南 > 日本2-2倍率","type":"vmess","server":"hn-co-1.xtspeeder001.xyz","port":20002,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"V2湖南 > 日本3-2倍率","type":"vmess","server":"hn-co-1.xtspeeder001.xyz","port":20003,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"V2湖南 > 日本4-2倍率","type":"vmess","server":"hn-co-1.xtspeeder001.xyz","port":20004,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"V2湖南 > 香港1-2倍率","type":"vmess","server":"hn-co-1.xtspeeder001.xyz","port":20005,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"V2重庆 > 美国1-2倍率","type":"vmess","server":"dl-57.xtcdns.top","port":80,"uuid":"50a43717-7551-39db-b9d3-1ab2a68fe022","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"fly-he2.mzetech.net"}}
 
 
 Proxy Group:
@@ -181,56 +163,38 @@ Proxy Group:
 - name: "UrlTest"
   type: url-test
   proxies:
-   - 'V1三网直连 > 香港1-2倍率'
-   - 'V1电信/联通直连 > 美国3-1倍率'
-   - 'V1电信/联通直连 > 美国4-1.5倍率'
-   - 'V1电信/联通直连 > 美国5-1倍率'
-   - 'V1电信/联通直连 > 美国6-1倍率'
-   - 'V1移动直连 > 越南1-2倍率'
-   - 'V1联通直连 > 美国1-可看NF-1倍率'
-   - 'V1联通直连 > 美国2-1倍率'
-   - 'V1联通直连 > 美国5-可看NF-1倍率'
-   - 'V2常州 > 日本-2倍率'
-   - 'V2枣庄 > 日本2-1倍率'
-   - 'V2枣庄 > 美国-1倍率'
-   - 'V2湖南 > 台湾2-可看动漫疯-1.2倍率'
-   - 'V2湖南 > 新加坡-可看NF-1倍率'
-   - 'V2湖南 > 美国1-可看NF-1倍率'
-   - 'V2湖南 > 香港1-可看NF-1.2倍率'
-   - 'V2湖南 > 香港3-可看NF-1.5倍率'
-   - 'V2绍兴 > 香港3-可看NF-1.5倍率'
-   - 'V2绍兴 > 香港5-可看NF-1.5倍率'
-   - 'V2茂名 > 香港-电信优化-6倍率'
-   - 'V2辽宁 > 日本1-1倍率'
-   - 'V2辽宁 > 香港1-可看NF-1.5倍率'
-   - 🇷🇺 俄罗斯 A 大带宽 0.1x
-   - 🇷🇺 俄罗斯 B Netflix可  0.1x
-   - 🇷🇺 俄罗斯 B 大带宽 0.1x
-   - 🇷🇺 俄罗斯 D Netflix可  0.1x
-   - 🇨🇳 台湾 HiNet Netflix可
-   - 🇸🇬 新加坡 A Netflix可
-   - 🇸🇬 新加坡 B
-   - 🇸🇬 新加坡 B Netflix可
-   - 🇸🇬 新加坡 C
-   - 🇸🇬 新加坡 D
-   - 🇯🇵 日本 A
-   - 🇯🇵 日本 B
-   - 🇯🇵 日本 C
-   - 🇺🇲 美国 洛杉矶
-   - 🇺🇲 美国 洛杉矶2
-   - 🇭🇰 香港 A
-   - 🇭🇰 香港 B
-   - 🇭🇰 香港 C
-   - 🇭🇰 香港 D
-   - 🇭🇰 香港 E
-   - 🇭🇰 香港 F
-   - 🇭🇰 香港 G
-   - 🇭🇰 香港 H Netflix可 2x
-   - 🇭🇰 香港 I
-   - 🇭🇰 香港 J
-   - 🇭🇰 香港 K
-   - 🇭🇰 香港 L
-   - 🇭🇰 香港 M
+   - 'V1三网直连 > 香港1-3倍率'
+    - 'V1三网直连 > 香港2-可看NF-2倍率'
+    - 'V1三网直连 > 香港3-2倍率'
+    - 'V1三网直连 > 香港4-2倍率'
+    - 'V1三网直连 > 香港5-3倍率'
+    - 'V1三网直连 > 香港6-2倍率'
+    - 'V1上海 > 日本1-2倍率'
+    - 'V1上海 > 日本2-2倍率'
+    - 'V1上海 > 美国1-可看NF-1倍率'
+    - 'V1上海 > 美国2-可看NF-1倍率'
+    - 'V1上海 > 美国3-可看NF-1倍率'
+    - 'V1上海 > 美国4-可看NF-1倍率'
+    - 'V1联通直连 > 美国3-1倍率'
+    - 'V2武汉 > 新加坡1-3倍率'
+    - 'V2武汉 > 香港1-3倍率'
+    - 'V2洛阳 > 台湾1-1倍率'
+    - 'V2洛阳 > 台湾3-可看动漫疯-1倍率'
+    - 'V2洛阳 > 美国-1倍率'
+    - 'V2洛阳 > 韩国1-1倍率'
+    - 'V2洛阳 > 韩国2-1倍率'
+    - 'V2洛阳 > 香港1-1倍率'
+    - 'V2洛阳 > 香港2-可看NF-1倍率'
+    - 'V2洛阳 > 香港3-可看NF-1倍率'
+    - 'V2洛阳 > 香港4-可看NF-1倍率'
+    - 'V2济南 > 加拿大1-1倍率'
+    - 'V2济南 > 香港1-3倍率'
+    - 'V2湖南 > 日本1-2倍率'
+    - 'V2湖南 > 日本2-2倍率'
+    - 'V2湖南 > 日本3-2倍率'
+    - 'V2湖南 > 日本4-2倍率'
+    - 'V2湖南 > 香港1-2倍率'
+    - 'V2重庆 > 美国1-2倍率'
   url: 'http://www.gstatic.com/generate_204'
   interval: 300
 
@@ -261,56 +225,38 @@ Proxy Group:
   type: select
   proxies:
    - "UrlTest"
-   - 'V1三网直连 > 香港1-2倍率'
-   - 'V1电信/联通直连 > 美国3-1倍率'
-   - 'V1电信/联通直连 > 美国4-1.5倍率'
-   - 'V1电信/联通直连 > 美国5-1倍率'
-   - 'V1电信/联通直连 > 美国6-1倍率'
-   - 'V1移动直连 > 越南1-2倍率'
-   - 'V1联通直连 > 美国1-可看NF-1倍率'
-   - 'V1联通直连 > 美国2-1倍率'
-   - 'V1联通直连 > 美国5-可看NF-1倍率'
-   - 'V2常州 > 日本-2倍率'
-   - 'V2枣庄 > 日本2-1倍率'
-   - 'V2枣庄 > 美国-1倍率'
-   - 'V2湖南 > 台湾2-可看动漫疯-1.2倍率'
-   - 'V2湖南 > 新加坡-可看NF-1倍率'
-   - 'V2湖南 > 美国1-可看NF-1倍率'
-   - 'V2湖南 > 香港1-可看NF-1.2倍率'
-   - 'V2湖南 > 香港3-可看NF-1.5倍率'
-   - 'V2绍兴 > 香港3-可看NF-1.5倍率'
-   - 'V2绍兴 > 香港5-可看NF-1.5倍率'
-   - 'V2茂名 > 香港-电信优化-6倍率'
-   - 'V2辽宁 > 日本1-1倍率'
-   - 'V2辽宁 > 香港1-可看NF-1.5倍率'
-   - 🇷🇺 俄罗斯 A 大带宽 0.1x
-   - 🇷🇺 俄罗斯 B Netflix可  0.1x
-   - 🇷🇺 俄罗斯 B 大带宽 0.1x
-   - 🇷🇺 俄罗斯 D Netflix可  0.1x
-   - 🇨🇳 台湾 HiNet Netflix可
-   - 🇸🇬 新加坡 A Netflix可
-   - 🇸🇬 新加坡 B
-   - 🇸🇬 新加坡 B Netflix可
-   - 🇸🇬 新加坡 C
-   - 🇸🇬 新加坡 D
-   - 🇯🇵 日本 A
-   - 🇯🇵 日本 B
-   - 🇯🇵 日本 C
-   - 🇺🇲 美国 洛杉矶
-   - 🇺🇲 美国 洛杉矶2
-   - 🇭🇰 香港 A
-   - 🇭🇰 香港 B
-   - 🇭🇰 香港 C
-   - 🇭🇰 香港 D
-   - 🇭🇰 香港 E
-   - 🇭🇰 香港 F
-   - 🇭🇰 香港 G
-   - 🇭🇰 香港 H Netflix可 2x
-   - 🇭🇰 香港 I
-   - 🇭🇰 香港 J
-   - 🇭🇰 香港 K
-   - 🇭🇰 香港 L
-   - 🇭🇰 香港 M
+   - 'V1三网直连 > 香港1-3倍率'
+    - 'V1三网直连 > 香港2-可看NF-2倍率'
+    - 'V1三网直连 > 香港3-2倍率'
+    - 'V1三网直连 > 香港4-2倍率'
+    - 'V1三网直连 > 香港5-3倍率'
+    - 'V1三网直连 > 香港6-2倍率'
+    - 'V1上海 > 日本1-2倍率'
+    - 'V1上海 > 日本2-2倍率'
+    - 'V1上海 > 美国1-可看NF-1倍率'
+    - 'V1上海 > 美国2-可看NF-1倍率'
+    - 'V1上海 > 美国3-可看NF-1倍率'
+    - 'V1上海 > 美国4-可看NF-1倍率'
+    - 'V1联通直连 > 美国3-1倍率'
+    - 'V2武汉 > 新加坡1-3倍率'
+    - 'V2武汉 > 香港1-3倍率'
+    - 'V2洛阳 > 台湾1-1倍率'
+    - 'V2洛阳 > 台湾3-可看动漫疯-1倍率'
+    - 'V2洛阳 > 美国-1倍率'
+    - 'V2洛阳 > 韩国1-1倍率'
+    - 'V2洛阳 > 韩国2-1倍率'
+    - 'V2洛阳 > 香港1-1倍率'
+    - 'V2洛阳 > 香港2-可看NF-1倍率'
+    - 'V2洛阳 > 香港3-可看NF-1倍率'
+    - 'V2洛阳 > 香港4-可看NF-1倍率'
+    - 'V2济南 > 加拿大1-1倍率'
+    - 'V2济南 > 香港1-3倍率'
+    - 'V2湖南 > 日本1-2倍率'
+    - 'V2湖南 > 日本2-2倍率'
+    - 'V2湖南 > 日本3-2倍率'
+    - 'V2湖南 > 日本4-2倍率'
+    - 'V2湖南 > 香港1-2倍率'
+    - 'V2重庆 > 美国1-2倍率'
 
 # 白名单模式 PROXY，黑名单模式 DIRECT
 - name: "Final"
@@ -329,48 +275,53 @@ Proxy Group:
   type: select
   proxies:
     - "PROXY"
-    - 'V1联通直连 > 美国1-可看NF-1倍率'
-    - 'V1联通直连 > 美国5-可看NF-1倍率'
-    - 'V2湖南 > 台湾2-可看动漫疯-1.2倍率'
-    - 'V2湖南 > 新加坡-可看NF-1倍率'
-    - 'V2湖南 > 美国1-可看NF-1倍率'
-    - 'V2湖南 > 香港1-可看NF-1.2倍率'
-    - 'V2湖南 > 香港3-可看NF-1.5倍率'
-    - 'V2绍兴 > 香港3-可看NF-1.5倍率'
-    - 'V2绍兴 > 香港5-可看NF-1.5倍率'
-    - 'V2辽宁 > 香港1-可看NF-1.5倍率'
-    - 🇷🇺 俄罗斯 B Netflix可  0.1x
-    - 🇷🇺 俄罗斯 D Netflix可  0.1x
-    - 🇨🇳 台湾 HiNet Netflix可
-    - 🇸🇬 新加坡 A Netflix可
-    - 🇸🇬 新加坡 B Netflix可
-    - 🇭🇰 香港 H Netflix可 2x
+    - 'V1三网直连 > 香港2-可看NF-2倍率'
+    - 'V1上海 > 美国1-可看NF-1倍率'
+    - 'V1上海 > 美国2-可看NF-1倍率'
+    - 'V1上海 > 美国3-可看NF-1倍率'
+    - 'V1上海 > 美国4-可看NF-1倍率'
+    - 'V2洛阳 > 台湾3-可看动漫疯-1倍率'
+    - 'V2洛阳 > 香港2-可看NF-1倍率'
+    - 'V2洛阳 > 香港3-可看NF-1倍率'
+    - 'V2洛阳 > 香港4-可看NF-1倍率'
 
 # 大陆流媒体面向港澳台限定服务
 - name: "HKMTMedia"
   type: select
   proxies:
     - "DIRECT"
-    - 'V1三网直连 > 香港1-2倍率'
-    - 'V2湖南 > 香港1-可看NF-1.2倍率'
-    - 'V2湖南 > 香港3-可看NF-1.5倍率'
-    - 'V2绍兴 > 香港3-可看NF-1.5倍率'
-    - 'V2绍兴 > 香港5-可看NF-1.5倍率'
-    - 'V2茂名 > 香港-电信优化-6倍率'
-    - 'V2辽宁 > 香港1-可看NF-1.5倍率'
-    - 🇭🇰 香港 A
-    - 🇭🇰 香港 B
-    - 🇭🇰 香港 C
-    - 🇭🇰 香港 D
-    - 🇭🇰 香港 E
-    - 🇭🇰 香港 F
-    - 🇭🇰 香港 G
-    - 🇭🇰 香港 H Netflix可 2x
-    - 🇭🇰 香港 I
-    - 🇭🇰 香港 J
-    - 🇭🇰 香港 K
-    - 🇭🇰 香港 L
-    - 🇭🇰 香港 M
+    - 'V1三网直连 > 香港1-3倍率'
+    - 'V1三网直连 > 香港2-可看NF-2倍率'
+    - 'V1三网直连 > 香港3-2倍率'
+    - 'V1三网直连 > 香港4-2倍率'
+    - 'V1三网直连 > 香港5-3倍率'
+    - 'V1三网直连 > 香港6-2倍率'
+    - 'V1上海 > 日本1-2倍率'
+    - 'V1上海 > 日本2-2倍率'
+    - 'V1上海 > 美国1-可看NF-1倍率'
+    - 'V1上海 > 美国2-可看NF-1倍率'
+    - 'V1上海 > 美国3-可看NF-1倍率'
+    - 'V1上海 > 美国4-可看NF-1倍率'
+    - 'V1联通直连 > 美国3-1倍率'
+    - 'V2武汉 > 新加坡1-3倍率'
+    - 'V2武汉 > 香港1-3倍率'
+    - 'V2洛阳 > 台湾1-1倍率'
+    - 'V2洛阳 > 台湾3-可看动漫疯-1倍率'
+    - 'V2洛阳 > 美国-1倍率'
+    - 'V2洛阳 > 韩国1-1倍率'
+    - 'V2洛阳 > 韩国2-1倍率'
+    - 'V2洛阳 > 香港1-1倍率'
+    - 'V2洛阳 > 香港2-可看NF-1倍率'
+    - 'V2洛阳 > 香港3-可看NF-1倍率'
+    - 'V2洛阳 > 香港4-可看NF-1倍率'
+    - 'V2济南 > 加拿大1-1倍率'
+    - 'V2济南 > 香港1-3倍率'
+    - 'V2湖南 > 日本1-2倍率'
+    - 'V2湖南 > 日本2-2倍率'
+    - 'V2湖南 > 日本3-2倍率'
+    - 'V2湖南 > 日本4-2倍率'
+    - 'V2湖南 > 香港1-2倍率'
+    - 'V2重庆 > 美国1-2倍率'
 # 运营商及声名狼藉网站劫持
 - name: "Hijacking"
   type: select
